@@ -11,14 +11,16 @@
 
     <body>
         <header>
-            <button class="menuButton" type="button" aria-expanded="false" aria-controls="mainNavigation">☰</button>
+            <button id="menuButton" type="button" aria-expanded="false" aria-controls="mainNavigation">☰</button>
 
-            <nav class="navDesktop" id="mainNavigation">
-                <a class="linkStart" href="#">Startseite</a>
-                <a class="linkRecepies" href="#">Rezepte</a>
-                <a class="linkGallery" href="#">Bildergalerie</a>
-                <a class="linkMap" href="#">Karte</a>
-                <a class="linkTasks" href="#">Aufgaben</a>
+            <nav id="mainNavigation">
+                <ul>
+                    <li><a class="linkStart" href="#">Startseite</a></li>
+                    <li><a class="linkRecepies" href="#">Rezepte</a></li>
+                    <li><a class="linkGallery" href="#">Bildergalerie</a></li>
+                    <li><a class="linkMap" href="#">Karte</a></li>
+                    <li><a class="linkTasks" href="#">Aufgaben</a></li>
+                </ul>
             </nav>
         </header>
         
@@ -26,8 +28,13 @@
         </main>
 
         <footer>
-            <a class="linkImprint" href="#">Impressum</a>
-            <a class="linkPrivacy" href="#">Datenschutz</a>
+            <nav>
+                <ul>
+                    <li><a class="linkImprint" href="#">Impressum</a></li>
+                    <li><a class="linkPrivacy" href="#">Datenschutz</a></li>
+                </ul>
+            </nav>
+            
         </footer>
     </body>
 
